@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="new_year_color_tab">#FEEEBB</color>
+    <color name="old_year_color_tab">#FFFFFF</color>
+    <color name="new_year_color_mine_text">#FEEEBB</color>
+    <color name="old_year_color_mine_text">#FFFFFF</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="line_color_1">#e5e5e5</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="yellow">#ecca50</color>
+    <color name="line">#ddd</color>
+    <color name="ccc">#ccc</color>
+    <color name="red">#ffcc0000</color>
+    <color name="linefill">#DEEFE4</color>
+    <color name="description">#686868</color>
+    <color name="bg">#f5f1ea</color>
+    <color name="gray_122839">#122839</color>
+    <color name="dark_white">#99ffffff</color>
+    <color name="grid_bg">#00ffffff</color>
+    <!--主题色-->
+    <color name="action_bar">#FFFFBE33</color>
+    <color name="gray_999">#999999</color>
+    <color name="gray_666">#666666</color>
+    <color name="gray_333">#333333</color>
+    <color name="MainText">#333333</color>
+
+    <!--tab的底部线-->
+    <color name="line_color_2">#e5e5e5</color>
+    <color name="red_ff606a">#ff3e3e</color>
+    <color name="green_00ca81">#00ca81</color>
+
+    <color name="orange">#ffffdc7e</color>
+    <color name="grey">#ffd3d3d3</color>
+    <color name="green">#54c129</color>
+    <color name="blue">#ff82e0ff</color>
+    <color name="blue1">#30C0FF</color>
+    <color name="list_item_pressed">#1A000000</color>
+    <color name="white1">#000000</color>
+    <color name="black_translucent">#50000000</color>
+    <color name="uvv_gray">#969696</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+
+    <!--weixin-->
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="lightgrey">#ff888888</color>
+
+</resources>
+
