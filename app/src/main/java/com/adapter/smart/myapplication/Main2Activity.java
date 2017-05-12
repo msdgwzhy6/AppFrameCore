@@ -11,7 +11,7 @@ public class Main2Activity extends BaseActivity {
 
     private TextView tv1;
     @Override
-    public int bindLayoutId() {
+    public int getContentView() {
         return R.layout.activity_main2;
     }
 
@@ -27,7 +27,7 @@ public class Main2Activity extends BaseActivity {
 
 
     @Override
-    public void setListener() {
+    public void setViewClickedListener() {
         tv1.setOnClickListener(this);
     }
 

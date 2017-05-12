@@ -64,15 +64,15 @@ public class BaseTitlebar extends RelativeLayout {
     protected void onFinishInflate() {
         super.onFinishInflate();
 
-        backButton = (ImageButton) findViewById(R.id.back_button);//返回按钮
+        backButton = (ImageButton) findViewById(R.id.base_back_button);//返回按钮
         titleText = (TextView) findViewById(R.id.base_title);
-        rightButton = (ImageButton) findViewById(R.id.right_button);
-        rightTextButton = (TextView) findViewById(R.id.right_text);
-        title_center_line = (RelativeLayout) findViewById(R.id.title_center_line);
-        titleImg = (ImageView) findViewById(R.id.title_img);
+        rightButton = (ImageButton) findViewById(R.id.base_right_button);
+        rightTextButton = (TextView) findViewById(R.id.base_right_text);
+        title_center_line = (RelativeLayout) findViewById(R.id.base_title_center_line);
+        titleImg = (ImageView) findViewById(R.id.base_title_img);
         rightButton.setVisibility(View.GONE);
         backButton.setVisibility(View.GONE);
-        leftTextButton=(TextView) findViewById(R.id.left_text);
+        leftTextButton=(TextView) findViewById(R.id.base_left_text);
 
     }
 

@@ -13,14 +13,14 @@ import static com.adapter.smart.myapplication.R.id.tv;
 public class MainActivity extends BaseActivity {
     private TextView mTextView;
     @Override
-    protected void initScreen() {
-        super.initScreen();
+    protected void initSystemUI() {
+        super.initSystemUI();
         setNoTitle(true);
         setsteepStatusBar(false);
     }
 
     @Override
-    public int bindLayoutId() {
+    public int getContentView() {
         return R.layout.activity_main;
     }
 
@@ -47,7 +47,7 @@ public class MainActivity extends BaseActivity {
 
 
     @Override
-    public void setListener() {
+    public void setViewClickedListener() {
         mTextView.setOnClickListener(this);
     }
 

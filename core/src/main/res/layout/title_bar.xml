@@ -7,7 +7,7 @@
     android:background="@drawable/bg_line_bottom_1dp"
     android:gravity="center_vertical">
     <RelativeLayout
-        android:id="@+id/title_center_line"
+        android:id="@+id/base_title_center_line"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
@@ -31,7 +31,7 @@
     </RelativeLayout>
 
     <ImageView
-        android:id="@+id/title_img"
+        android:id="@+id/base_title_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -40,7 +40,7 @@
         android:visibility="visible"/>
 
     <ImageButton
-        android:id="@+id/back_button"
+        android:id="@+id/base_back_button"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
@@ -54,7 +54,7 @@
         android:visibility="gone"/>
 
     <TextView
-        android:id="@+id/left_text"
+        android:id="@+id/base_left_text"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
@@ -71,7 +71,7 @@
 
 
     <ImageButton
-        android:id="@+id/right_button"
+        android:id="@+id/base_right_button"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
@@ -85,7 +85,7 @@
         android:visibility="gone"/>
 
     <ImageButton
-        android:id="@+id/right_like_button"
+        android:id="@+id/base_right_like_button"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_toLeftOf="@+id/right_button"
@@ -110,7 +110,7 @@
         android:visibility="gone"/>
 
     <TextView
-        android:id="@+id/tv_number"
+        android:id="@+id/base_tv_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -126,7 +126,7 @@
         android:visibility="gone"/>
 
     <TextView
-        android:id="@+id/right_text"
+        android:id="@+id/base_right_text"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"

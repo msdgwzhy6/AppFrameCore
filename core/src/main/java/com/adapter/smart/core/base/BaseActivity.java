@@ -35,7 +35,7 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         Log.d(TAG, "BaseActivity-->onCreate()");
         //屏幕初始化流程
-        initScreen();
+        initSystemUI();
         if (mNoTitle) {
             requestWindowFeature(Window.FEATURE_NO_TITLE);
         }
@@ -43,7 +43,7 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
             steepStatusBar();
         }
         //装载布局
-        mContentView = LayoutInflater.from(this) .inflate(bindLayoutId(), null);
+        mContentView = LayoutInflater.from(this) .inflate(getContentView(), null);
         setContentView(mContentView);
         initTitleBar(mBaseTitlebar);//初始化title
 
@@ -55,15 +55,15 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);//只能是竖屏
         }
         initView(mContentView);
-        setListener();
+        setViewClickedListener();
     }
 
     /*
     * 屏幕初始化操作
     * 如 显示title ： setNoTitle(false)
     * */
-    protected void initScreen() {}
-    protected void initTitleBar(BaseTitlebar baseTitlebar) {    }
+    protected void initSystemUI() {}
+    protected void initTitleBar(BaseTitlebar baseTitlebar) {}
 
     /**
      * [沉浸状态栏]
@@ -102,7 +102,7 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
         this.isAllowScreenRoate = isAllowScreenRoate;
     }
 
-    public abstract int bindLayoutId();//绑定布局
+    public abstract int getContentView();//绑定布局
     public abstract void initView(final View contentView);//初始化控件
 
     /*View点击 */
@@ -126,7 +126,7 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
     }
 
 
-    public abstract void setListener();//设置监听
+    public abstract void setViewClickedListener();//设置监听
 
     /* 页面跳转 */
     public void startActivityWithNothing(Class<?> clz) {
