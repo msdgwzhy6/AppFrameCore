@@ -30,6 +30,8 @@ public class MainActivity extends BaseActivity {
         baseTitlebar = getViewById(com.adapter.smart.core.R.id.base_title_bar);
         baseTitlebar.setTitle("黎明");
         baseTitlebar.setRightText("右侧",null);
+//        baseTitlebar.setBackButton(com.adapter.smart.core.R.mipmap.return_back,null);
+        baseTitlebar.setLeftTextButton("左侧",null);
     }
 
     @Override
